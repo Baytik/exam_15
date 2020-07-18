@@ -1,0 +1,92 @@
+.recipe-block {
+ margin-bottom: 50px;
+}
+.flex-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+.left-block {
+    width: 70%;
+}
+.right-block {
+    margin-left: 10px;
+}
+.right-block img {
+    margin: 10px 0;
+    width: 300px;
+    height: 200px;
+}
+.add-photo-block span {
+    font-size: 22px;
+}
+.add-photo-block input {
+    font-size: 22px;
+    margin-left: 80px;
+}
+.upload-btn {
+    background: white;
+    font-size: 22px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 12%;
+}
+.images-flex {
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images-flex button{
+    background: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+.images-flex img {
+    margin: 3px 10px;
+    width: 200px;
+    height: 150px;
+}
+.comment-block {
+    margin-bottom: 50px;
+}
+.comment-block textarea {
+    margin-bottom: 15px;
+    font-size: 22px;
+    padding: 3px 7px;
+}
+.rate-block {
+    margin: 0 15px;
+}
+.comment-block select {
+    margin-left: 5px;
+    font-size: 22px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.comment-block button {
+    margin-left: 20px;
+    font-size: 22px;
+    background: white;
+    border: 2px solid black;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.comments {
+    border: 2px solid black;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+.btn {
+    cursor: pointer;
+    background: red;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+}
