@@ -1,0 +1,48 @@
+.new-recipe {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.new-recipe span {
+    font-size: 24px;
+    margin-right: 100px;
+}
+.new-recipe input {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title-input {
+    border: 2px solid black;
+    padding-left: 5px;
+    margin-left: 76px;
+    width: 500px;
+}
+.image-input {
+    margin-left: 58px;
+}
+.description-input {
+    border: 2px solid black;
+    padding-left: 5px;
+}
+.new-recipe button {
+    margin-top: 40px;
+    font-size: 24px;
+    background: white;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 3px 10px;
+}
+.new-recipe .agree-block span {
+    width: 400px;
+    margin-right: 20px;
+}
+.agree-block {
+    margin-top: 50px;
+    display: flex;
+}
+.agree-block input {
+    margin-top: 4px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
