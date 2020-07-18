@@ -39,7 +39,7 @@ class Login extends Component {
                                onChange={this.changeInputHandler}/>
                     </div>
                     <div>
-                        <button type="submit">Login</button>
+                        <button type="submit" id="login">Login</button>
                     </div>
                     <div>
                         {this.props.loginError && (

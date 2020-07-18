@@ -51,12 +51,12 @@ class NewPlace extends Component {
                 <form onSubmit={this.createNewPlace}>
                     <div>
                         <span>Title</span>
-                        <input type="text" className="title-input" name="title" onChange={this.changeInputHandler}/>
+                        <input type="text" className="title-input" name="title" onChange={this.changeInputHandler} id="title"/>
                     </div>
                     <div>
                         <span>Description</span>
                         <textarea name="description" cols="61" rows="10" onChange={this.changeInputHandler}
-                                  className="description-input"/>
+                                  className="description-input" id="description"/>
                     </div>
                     <div>
                         <span>Image</span>
@@ -68,11 +68,11 @@ class NewPlace extends Component {
                             public domain, and administrators of the site will have full control over the said
                             information.
                         </span>
-                        <input name="checked" type="checkbox" onChange={this.checkboxChangeHandler}/>
+                        <input name="checked" type="checkbox" onChange={this.checkboxChangeHandler} id="check"/>
                         <span>I understand</span>
                     </div>
                     <div>
-                        <button type="submit">Submit new place</button>
+                        <button type="submit" id="add_place">Submit new place</button>
                     </div>
                     <div>
                         {this.props.placeError && (

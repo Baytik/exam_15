@@ -24,7 +24,7 @@ class Places extends Component {
                 {this.props.places && this.props.places.map(place => (
                     <div key={place._id} className="Recipe">
                         <img src={apiURL + '/uploads/' + place.image} alt={place._id}/>
-                        <p className="title" onClick={() => this.clickHandler(place._id)}>{place.title}</p>
+                        <p className="title" onClick={() => this.clickHandler(place._id)} id="name">{place.title}</p>
                         <p>(Rate: {!place.rating ? 0 : place.rating}, Views: {place.views})</p>
                         {this.props.user && this.props.user.role === 'admin' && (
                             <button className="delete-button" onClick={() => this.deleteRecipeHandler(place._id)}>Delete</button>

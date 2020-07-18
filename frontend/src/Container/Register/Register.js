@@ -32,14 +32,16 @@ class Register extends Component {
                 <form onSubmit={this.newUser}>
                     <div>
                         <input type="text" placeholder="Write email" name="username"
+                               id="username"
                                onChange={this.changeInputHandler}/>
                     </div>
                     <div>
                         <input type="text" placeholder="Write password" name="password"
+                               id="password"
                                onChange={this.changeInputHandler}/>
                     </div>
                     <div>
-                        <button type="submit">Register</button>
+                        <button type="submit" id="register">Register</button>
                     </div>
                     <div>
                         {this.props.registerError && (
